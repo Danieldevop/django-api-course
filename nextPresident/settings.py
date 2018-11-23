@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # Voting app
     'voting.apps.VotingConfig',
+    'django_seed',
 
     'django.contrib.admin',
     'django.contrib.auth',
